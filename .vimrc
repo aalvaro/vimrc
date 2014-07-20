@@ -7,7 +7,11 @@ set hlsearch
 " Show line numbers
 set number
 
-"""""""""""""""""""""""""""""""""
+" Highlight text that goes over 80 column limit
+set colorcolumn=80
+highlight ColorColumn ctermbg=white guibg=white
+
+""""""""""""""""""""""""""""""""
 " Colors and Fonts
 """""""""""""""""""""""""""""""""
 " Enable syntax highlighting
